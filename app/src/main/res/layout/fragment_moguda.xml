@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.mogudaFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:padding="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/nomMoguda"
+                android:text="FESTA DRAGON BALL"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/tematicRed"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:background="@color/white" />
+            <TextView
+                android:id="@+id/tipusMoguda"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:text="A DARSE DE HOSTIAS"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_height="40dp"
+                android:background="@color/white" />
+            <TextView
+                android:id="@+id/dataMoguda"
+                android:layout_width="match_parent"
+                android:textStyle="bold"
+                android:text="GOKU EL MEJOR  "
+                android:textSize="18dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_height="40dp"
+                android:background="@color/white"  />
+            <Switch
+                android:id="@+id/asistencia"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:layout_marginTop="10dp"
+                android:textSize="25sp"
+                android:text="Assistiré"/>
+
+            <TextView
+                android:text="Organizador i localització"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/oganitzadorcvvv"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                >
+                <ImageView
+                    android:layout_width="70sp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/hola"
+                    />
+                <TextView
+                    android:id="@+id/asdadsadasdasd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Swing maniacs"
+                    android:layout_marginLeft="80sp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_marginTop="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Barcelona, Espanya"
+                    android:layout_marginLeft="80sp"
+                    android:textSize="20sp"
+                    />
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:text="Descripció"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white" />
+            <TextView
+                android:id="@+id/descriptionText"
+                android:text="Andando al andén, al andén andando
+De vagón en vagón vagando
+A un metro del metro yo la vi
+Perdimos el tren, lo dejamos ir
+Andando al andén, al andén andando
+De vagón en vagón vagando
+Locos de amor, locos de pena
+Porque perdí a mi morena
+A un metro del metro nos conocimos
+Entre tren y tren nos entretuvimos
+Dime dónde vas que yo voy contigo
+Tu destino me queda de camino
+De vagón en vagón haciendo el vago
+Desde que te fuiste yo no sé qué hago
+Yo solo quiero vivir tranquilo
+Pero en tus curvas me descarrilo
+Entre coches y llantas metí la pata
+Escapé por poco casi me mata
+Mirando los trenes que van y vienen
+Pero ninguno me lleva con mi gata
+Algunos trenes pasan solo una vez
+Otros nunca pasan, y hay que hacer el camino a pie (andando al andén)Andando al andén, al andén andando
+De vagón en vagón vagando
+A un metro del metro yo la vi
+Perdimos el tren, lo dejamos ir
+Andando al andén, al andén andando
+De vagón en vagón vagando
+Locos de amor, locos de pena
+Porque perdí a mi morena
+Andando al andén, al andén andando
+A un metro del metro yo la vi
+Andando al andén, al andén andando
+Perdimos el tren, lo dejamos ir"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:background="@color/white"
+                />
+            <Button
+                android:id="@+id/asistentsButton"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Asistents"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/white"
+                />
+            <TextView
+                android:text="Fotografies"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white" />
+            <TextView
+                android:text="No hay fotos"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="50dp"
+                android:textSize="15dp"
+                android:background="@color/white"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

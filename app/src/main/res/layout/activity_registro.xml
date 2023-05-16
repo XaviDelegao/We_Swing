@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    tools:context=".registro">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/capçalera"
+        android:textAlignment="center"
+        android:background="@color/tematicRed">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTRO"
+            android:textColor="@color/white"
+            android:fontFamily="monospace"
+            android:textSize="40dp"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_alignBottom="@+id/capçalera"
+        android:layout_width="match_parent"
+        android:layout_height="629dp"
+        android:layout_alignParentBottom="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:background="@color/white"
+                android:id="@+id/registerName"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:hint="NOMBRE" />
+
+            <Spinner
+
+                android:background="@color/white"
+                android:id="@+id/spinnerGenere"
+                android:layout_marginTop="80dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                />
+
+            <EditText
+                android:id="@+id/registerEmail"
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:layout_marginTop="160dp"
+                android:layout_height="70dp"
+                android:hint="CORREO ELECTRONICO" />
+
+            <EditText
+                android:background="@color/white"
+                android:id="@+id/registerPassword"
+                android:layout_width="match_parent"
+                android:layout_marginTop="240dp"
+                android:layout_height="70dp"
+                android:hint="CONTRASEÑA" />
+
+            <Spinner
+                android:background="@color/white"
+                android:id="@+id/spinnerIdioma"
+                android:layout_marginTop="320dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                />
+
+            <Spinner
+                android:background="@color/white"
+                android:id="@+id/spinnerPais"
+                android:layout_marginTop="400dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                />
+
+            <Spinner
+                android:background="@color/white"
+                android:id="@+id/spinnerCiutat"
+                android:layout_marginTop="480dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                />
+
+            <EditText
+                android:background="@color/white"
+                android:id="@+id/registerPoblacion"
+                android:layout_width="match_parent"
+                android:layout_marginTop="560dp"
+                android:layout_height="70dp"
+                android:hint="POBLACION" />
+
+            <Switch
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="640dp"
+                android:text="Teacher"
+                />
+
+            <Switch
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="720dp"
+                android:text="Dancer"
+
+                />
+
+            <Switch
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="800dp"
+                android:text="Music"
+
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:backgroundTint="@color/tematicRed"
+                android:text="upload picture"
+                android:layout_marginTop="880dp"
+
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:backgroundTint="@color/tematicRed"
+                android:text="sign up"
+                android:layout_marginTop="960dp"
+
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="100sp"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/pfpMoguda"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:id="@+id/mogudaTxt"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/pfpMoguda"
+            android:textSize="16sp"
+            android:text="Bejo asistira a razzmataz a cantar un ratico para los fumaos que haya por ahi" />
+
+        <TextView
+            android:id="@+id/horesTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mogudaTxt"
+            android:layout_toRightOf="@id/pfpMoguda"
+            android:textStyle="bold"
+            android:text="Fa 10 hores"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

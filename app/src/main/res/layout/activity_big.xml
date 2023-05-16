@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BigAct">
+
+    <TableLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:background="@color/grey"
+        android:layout_height="100dp">
+
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+            <ImageView
+                android:id="@+id/relojButton"
+                android:padding="10dp"
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:src="@drawable/reloj"/>
+
+            <ImageView
+                android:id="@+id/libretaButton"
+                android:padding="10dp"
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:src="@drawable/diario"/>
+
+            <ImageView
+                android:id="@+id/estrellaButton"
+                android:padding="10dp"
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:src="@drawable/estrella"/>
+
+
+            <ImageView
+                android:id="@+id/calendarButton"
+                android:padding="10dp"
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:src="@drawable/calendario"/>
+
+            <ImageView
+                android:id="@+id/lupaButton"
+                android:padding="10dp"
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:src="@drawable/lupa"/>
+
+            <ImageView
+                android:id="@+id/bocadilloButton"
+                android:padding="10dp"
+                android:layout_width="0dp"
+                android:layout_height="69dp"
+                android:layout_weight="1"
+                android:src="@drawable/bocadillo"/>
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:background="@color/tematicRed">
+
+        <TextView
+            android:id="@+id/textViewDondeEstas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MOGUDES"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            />
+
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="520sp"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
