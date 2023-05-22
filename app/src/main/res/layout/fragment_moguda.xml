@@ -15,7 +15,7 @@
             android:orientation="vertical">
             <TextView
                 android:id="@+id/nomMoguda"
-                android:text="FESTA DRAGON BALL"
+                android:text="Baile de semana santa"
                 android:textSize="30dp"
                 android:textAlignment="center"
                 android:textStyle="bold"
@@ -29,7 +29,7 @@
                 android:id="@+id/tipusMoguda"
                 android:layout_width="match_parent"
                 android:textStyle="bold"
-                android:text="A DARSE DE HOSTIAS"
+                android:text="Bendecidos sean"
                 android:textSize="20dp"
                 android:textAlignment="center"
                 android:gravity="center"
@@ -39,7 +39,7 @@
                 android:id="@+id/dataMoguda"
                 android:layout_width="match_parent"
                 android:textStyle="bold"
-                android:text="GOKU EL MEJOR  "
+                android:text="AMEN"
                 android:textSize="18dp"
                 android:textAlignment="center"
                 android:gravity="center"
@@ -79,7 +79,7 @@
                     android:id="@+id/asdadsadasdasd"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Swing maniacs"
+                    android:text="Parroquia de san jose"
                     android:layout_marginLeft="80sp"
                     android:textSize="20sp"
                     android:textStyle="bold"
@@ -108,39 +108,20 @@
                 android:background="@color/white" />
             <TextView
                 android:id="@+id/descriptionText"
-                android:text="Andando al andén, al andén andando
-De vagón en vagón vagando
-A un metro del metro yo la vi
-Perdimos el tren, lo dejamos ir
-Andando al andén, al andén andando
-De vagón en vagón vagando
-Locos de amor, locos de pena
-Porque perdí a mi morena
-A un metro del metro nos conocimos
-Entre tren y tren nos entretuvimos
-Dime dónde vas que yo voy contigo
-Tu destino me queda de camino
-De vagón en vagón haciendo el vago
-Desde que te fuiste yo no sé qué hago
-Yo solo quiero vivir tranquilo
-Pero en tus curvas me descarrilo
-Entre coches y llantas metí la pata
-Escapé por poco casi me mata
-Mirando los trenes que van y vienen
-Pero ninguno me lleva con mi gata
-Algunos trenes pasan solo una vez
-Otros nunca pasan, y hay que hacer el camino a pie (andando al andén)Andando al andén, al andén andando
-De vagón en vagón vagando
-A un metro del metro yo la vi
-Perdimos el tren, lo dejamos ir
-Andando al andén, al andén andando
-De vagón en vagón vagando
-Locos de amor, locos de pena
-Porque perdí a mi morena
-Andando al andén, al andén andando
-A un metro del metro yo la vi
-Andando al andén, al andén andando
-Perdimos el tren, lo dejamos ir"
+                android:text="Padre nuestro que estás en las motos,
+santificadas sean tus ruedas,
+vengan a nosotros tus frenos,
+hágase tu voluntad,
+así en la frenada
+como en las buenas tumbadas.
+La &quot;extra&quot; nuestra de cada día
+dánosla gratis,
+perdona nuestras multas,
+así como nosotros perdonamos
+a los que nos las ponen,
+y no nos dejes caer como las colillas,
+y líbranos de los radares.
+Amén."
                 android:layout_width="match_parent"
                 android:padding="10dp"
                 android:layout_height="wrap_content"

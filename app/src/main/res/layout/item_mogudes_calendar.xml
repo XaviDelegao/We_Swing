@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/TVData"
         android:layout_alignParentEnd="true"
-        android:text="I'm begginning to see the light"
+        android:text="I'm the storm that is aproaching"
         android:textStyle="bold"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -43,7 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/TitleTV"
         android:layout_alignParentEnd="true"
-        android:text="Organitzat per Big Mama"
+        android:text="Organitzat per Vergil"
         android:textSize="16sp"
 
         />
@@ -57,7 +57,7 @@
         android:maxHeight="20sp"
         android:layout_below="@+id/OrganitzaTV"
         android:layout_alignParentEnd="true"
-        android:text="17/04/2017-18/04/2017 | 2horas"
+        android:text="19/06/2017-18/04/2017 | 2horas"
         android:textSize="16sp"
 
         />
@@ -71,7 +71,7 @@
     android:maxHeight="20sp"
     android:layout_below="@+id/duracio"
     android:layout_alignParentEnd="true"
-    android:text="Madrid, Spain"
+    android:text="Barcelona, Spain"
     android:textSize="16sp"
 
     />
@@ -85,7 +85,7 @@
         android:maxHeight="20sp"
         android:layout_below="@+id/lloc"
         android:layout_alignParentEnd="true"
-        android:text="0 assistents | 0 amics"
+        android:text="3 assistents | 1 amics"
         android:textSize="16sp"
 
         />

@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/pfpMoguda"
             android:textSize="16sp"
-            android:text="Bejo asistira a razzmataz a cantar un ratico para los fumaos que haya por ahi" />
+            android:text="Charles Bridges asistira al Baile de semana santa" />
 
         <TextView
             android:id="@+id/horesTxt"
